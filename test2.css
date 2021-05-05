@@ -1,0 +1,27 @@
+.highcharts-title {
+  fill: white;
+}
+
+
+.highcharts-axis-title {
+  fill: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+/* 
+.highcharts-background {
+  fill: black;
+} */
+
+/* .highcharts-axis {
+  fill:white;
+}
+
+.highcharts-axis-labels {
+  fill: white;
+}
+
+.highcharts-button-symbol {
+  stroke: black;
+  fill: white;
+} */
