@@ -21,7 +21,7 @@ function syncExtremes(e) {
   }
 }
 
-Highcharts.getJSON('json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
+Highcharts.getJSON('static/json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
 
   // split the data set into ohlc and volume
   var ohlc = [],
@@ -70,7 +70,7 @@ Highcharts.stockChart('container', optionsForFirstChart)
 });
 
 
-Highcharts.getJSON('json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
+Highcharts.getJSON('static/json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
 
   // split the data set into ohlc and volume
   var ohlc = [],
@@ -124,7 +124,7 @@ let optionsForSecondChart = {
 
 });
 
-Highcharts.getJSON('json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
+Highcharts.getJSON('static/json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
 
   // split the data set into ohlc and volume
   var ohlc = [],
@@ -182,7 +182,7 @@ let optionsForThirdChart = {
 
 });
 
-Highcharts.getJSON('json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
+Highcharts.getJSON('static/json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
 
   // split the data set into ohlc and volume
   var ohlc = [],
@@ -236,7 +236,7 @@ let optionsForFourthChart = {
 
 });
 
-Highcharts.getJSON('json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
+Highcharts.getJSON('static/json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
 
   // split the data set into ohlc and volume
   var ohlc = [],
@@ -290,7 +290,7 @@ let optionsForFifthChart = {
 
 });
 
-Highcharts.getJSON('json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
+Highcharts.getJSON('static/json_xports_for_chart_render/doge_time_price_sentiment.json', function(data) {
 
   // split the data set into ohlc and volume
   var ohlc = [],
